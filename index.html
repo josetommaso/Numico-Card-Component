@@ -14,8 +14,62 @@
 		<title>Numiko | Card Component</title>
 	</head>
 	<body class="bg-veryDarkBlue">
-		<main>
-			<p class="text-white">Hello here</p>
+		<main
+			class="flex items-center justify-center h-screen min-h-[800px] container mx-auto px-8"
+		>
+			<section
+				class="grid md:grid-rows-1 md:grid-cols-2 md:max-w-[1100px] rounded-md overflow-hidden bg-darkBlue"
+			>
+				<figure
+					class="relative after:absolute after:bg-violet/70 after:brightness-[0.4] after:saturate-200 after:w-full after:h-full after:inset-0 after:pointer-events-none md:order-2"
+				>
+					<img
+						class="w-full h-full md:absolute object-cover"
+						src="/images/card-image-desktop.jpg"
+						alt="three women working with computers in an office"
+					/>
+				</figure>
+				<article
+					class="text-white text-center p-8 md:text-left lg:py-[4.5rem] lg:pl-[4.5rem] lg:pr-28"
+				>
+					<header>
+						<h2
+							class="text-2xl tracking-[0.050rem] font-bold font-lexendDeca md:text-3xl"
+						>
+							Get <span class="text-violet">insights</span> that help your
+							business grow.
+						</h2>
+					</header>
+					<p class="text-white/70 mt-6">
+						Discover the benefits of data analytics and make better decisions
+						regarding revenue, customer experience, and overall efficiency.
+					</p>
+					<ul
+						class="list-none mt-7 md:flex md:flex-wrap md:justify-between md:gap-4 [&>:not(:last-child)]:mb-6 md:[&>:not(:last-child)]:!mb-0 lg:mt-16"
+					>
+						<li>
+							<span id="counter" class="text-2xl font-bold tracking-wider"
+								>10k+</span
+							>
+							<p class="uppercase text-xs tracking-widest text-white/70 mt-1">
+								companies
+							</p>
+						</li>
+						<li>
+							<span class="text-2xl font-bold tracking-wider">314</span>
+							<p class="uppercase text-xs tracking-widest text-white/70 mt-1">
+								templates
+							</p>
+						</li>
+						<li>
+							<span class="text-2xl font-bold tracking-wider">12m+</span>
+							<p class="uppercase text-xs tracking-widest text-white/70 mt-1">
+								queries
+							</p>
+						</li>
+					</ul>
+				</article>
+			</section>
 		</main>
 	</body>
 </html>
