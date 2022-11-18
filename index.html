@@ -51,21 +51,27 @@
 						class="list-none mt-7 md:flex md:flex-wrap md:justify-between md:gap-4 [&>:not(:last-child)]:mb-6 md:[&>:not(:last-child)]:!mb-0 lg:mt-16"
 					>
 						<li>
-							<span id="counter" class="text-2xl font-bold tracking-wider"
-								>10k+</span
+							<span class="text-2xl font-bold tracking-wider"
+								><span class="counter" id="counter1">10</span>k+</span
 							>
 							<p class="uppercase text-xs tracking-widest text-white/70 mt-1">
 								companies
 							</p>
 						</li>
 						<li>
-							<span class="text-2xl font-bold tracking-wider">314</span>
+							<span
+								class="text-2xl font-bold tracking-wider counter"
+								id="counter2"
+								>314</span
+							>
 							<p class="uppercase text-xs tracking-widest text-white/70 mt-1">
 								templates
 							</p>
 						</li>
 						<li>
-							<span class="text-2xl font-bold tracking-wider">12m+</span>
+							<span class="text-2xl font-bold tracking-wider"
+								><span class="counter" id="counter3">12</span>m+</span
+							>
 							<p class="uppercase text-xs tracking-widest text-white/70 mt-1">
 								queries
 							</p>
@@ -75,5 +81,6 @@
 			</section>
 		</main>
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.9.3/countUp.min.js"></script>
 	</body>
 </html>
