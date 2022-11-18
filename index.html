@@ -10,7 +10,9 @@
 			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
 			rel="stylesheet"
 		/>
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 		<link rel="stylesheet" href="css/main.css" />
+		<script defer src="./js/main.js"></script>
 		<title>Numiko | Card Component</title>
 	</head>
 	<body class="bg-veryDarkBlue">
@@ -19,6 +21,7 @@
 		>
 			<section
 				class="grid md:grid-rows-1 md:grid-cols-2 md:max-w-[1100px] rounded-md overflow-hidden bg-darkBlue"
+				data-aos="fade-up"
 			>
 				<figure
 					class="relative after:absolute after:bg-violet/70 after:brightness-[0.4] after:saturate-200 after:w-full after:h-full after:inset-0 after:pointer-events-none md:order-2"
@@ -71,5 +74,6 @@
 				</article>
 			</section>
 		</main>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	</body>
 </html>
