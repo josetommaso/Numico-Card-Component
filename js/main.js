@@ -17,5 +17,5 @@ counters.forEach((counter) => {
 	// start the counting after 1500ms
 	setTimeout(() => {
 		count.start();
-	}, 1500);
+	}, 2000);
 });
